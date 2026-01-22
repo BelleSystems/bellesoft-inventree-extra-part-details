@@ -16,18 +16,18 @@ from . import PLUGIN_VERSION
 logger = logging.getLogger(__name__)
 
 
-class PartTotalPrice(SettingsMixin, UserInterfaceMixin, InvenTreePlugin):
-    """PartTotalPrice - custom InvenTree plugin."""
+class BellesoftExtraPartDetails(SettingsMixin, UserInterfaceMixin, InvenTreePlugin):
+    """Bellesoft Extra Part Details - custom InvenTree plugin."""
 
     # Plugin metadata
-    TITLE = "Part Total Price"
-    NAME = "PartTotalPrice"
-    SLUG = "part-total-price"
-    DESCRIPTION = "Shows the part's price total."
+    TITLE = "Bellesoft Extra Part Details"
+    NAME = "BellesoftExtraPartDetails"
+    SLUG = "bellesoft-extra-part-details"
+    DESCRIPTION = "Shows extra part details for Bellesoft AMS."
     VERSION = PLUGIN_VERSION
 
     # Additional project information
-    AUTHOR = "Aaron"
+    AUTHOR = "Bellesoft Systems Inc."
 
     LICENSE = "MIT"
 
