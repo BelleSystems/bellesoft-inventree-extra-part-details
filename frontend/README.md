@@ -43,7 +43,7 @@ To compile the frontend code, run:
 npm run build
 ```
 
-This will compile the frontend into the `../part_total_price/static` directory (ready for distribution).
+This will compile the frontend into the `../bellesoft_extra_part_details/static` directory (ready for distribution).
 
 Note: The target directory is intentionally outside of the frontend directory, so that the compiled files are correctly bundled into the python package install.
 
