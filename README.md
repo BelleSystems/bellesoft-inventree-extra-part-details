@@ -13,7 +13,7 @@ Shows extra part details for Bellesoft AMS.
 To install manually via the command line, run the following command:
 
 ```bash
-pip install bellesoft-extra-part-details
+pip install inventree-bellesoft-extra-part-details
 ```
 
 ## Configuration

@@ -8,11 +8,11 @@ requires = ["setuptools", "twine", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "inventree-part-total-price"
-description = "Shows the part's price total."
+name = "inventree-bellesoft-extra-part-details"
+description = "Shows extra part details for Bellesoft AMS."
 dynamic = ["version"]
 authors = [
-    { name = "Aaron", email = "aserrano@thebellevue.com" },
+    { name = "Bellesoft Systems Inc." }
 ]
 readme = "README.md"
 license = "MIT"
@@ -28,13 +28,13 @@ classifiers = [
 ]
 
 [project.entry-points."inventree_plugins"]
-PartTotalPrice = "part_total_price.core:PartTotalPrice"
+BellesoftExtraPartDetails = "bellesoft_extra_part_details.core:BellesoftExtraPartDetails"
 
 [tool.setuptools.packages.find]
 where = [""]
 
 [tool.setuptools.dynamic]
-version = {attr = "part_total_price.PLUGIN_VERSION"} 
+version = {attr = "bellesoft_extra_part_details.PLUGIN_VERSION"} 
 
 [tool.ruff]
 exclude = [
@@ -47,5 +47,5 @@ exclude = [
     ".venv",
     ".env",
 ]
+src=["bellesoft_extra_part_details"]
 
-src=["part_total_price"]
