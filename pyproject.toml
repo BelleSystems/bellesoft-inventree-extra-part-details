@@ -47,5 +47,6 @@ exclude = [
     ".venv",
     ".env",
 ]
+
 src=["bellesoft_extra_part_details"]
 
