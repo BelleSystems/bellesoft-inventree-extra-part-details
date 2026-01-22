@@ -1,6 +1,6 @@
-# PartTotalPrice
+# Bellesoft Extra Part Details
 
-Shows the part's price total.
+Shows extra part details for Bellesoft AMS.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Shows the part's price total.
 To install manually via the command line, run the following command:
 
 ```bash
-pip install part-total-price
+pip install bellesoft-extra-part-details
 ```
 
 ## Configuration
