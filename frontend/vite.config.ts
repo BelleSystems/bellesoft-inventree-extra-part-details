@@ -51,7 +51,7 @@ export default defineConfig({
         './src/Settings.tsx',
       ],
       output: {
-        dir: '../part_total_price/static',
+        dir: '../bellesoft_extra_part_details/static',
         entryFileNames: '[name].js',
         assetFileNames: 'assets/[name].[ext]',
         globals: externalLibs,
