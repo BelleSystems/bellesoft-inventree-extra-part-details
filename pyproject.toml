@@ -36,6 +36,12 @@ where = [""]
 [tool.setuptools.dynamic]
 version = {attr = "bellesoft_extra_part_details.PLUGIN_VERSION"} 
 
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+bellesoft_extra_part_details = ["static/**"]
+
 [tool.ruff]
 exclude = [
     ".git",
