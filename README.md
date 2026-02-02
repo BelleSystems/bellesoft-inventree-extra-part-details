@@ -30,7 +30,7 @@ This plugin computes those aggregates and exposes them in the InvenTree UI so op
 - Navigate to your InvenTree's **Admin Center** and go to the **Plugin Settings** view.
 - Select **Install Plugin**
 - Fill in the form and install.  
-  **Package Name:** `inventree-bellesoft-extra-part-details`  
+  **Package Name:** `bellesoft-extra-part-details`  
   **Source URL:** `git+https://github.com/BelleSystems/bellesoft-inventree-extra-part-details`
 - Enable the plugin once installed.
 
